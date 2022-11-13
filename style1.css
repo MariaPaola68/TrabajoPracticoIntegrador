@@ -1,0 +1,126 @@
+.navbar-expand-lg.navbar-dark {
+    background-color: rgb(40, 38, 38) !important; position: fixed
+}
+
+.navbar-brand-h1 {
+ color: white;
+ font-size: 2rem;
+ 
+}
+
+.navbar img {
+ width: 10rem;
+ margin-right: 3rem
+ 
+}
+
+.navbar .navbar-toggler {
+ padding: 0.25rem 0.30rem;
+ font-size: 1.7rem;
+ background-color: transparent;
+ border: 1px solid transparent;
+ border-radius: 0.25rem;
+ transition: box-shadow 0.15s ease-in-out;}
+
+
+
+.navbar .navbar-nav {
+ text-align: center;
+ 
+}
+
+.navbar .navbar-nav a:last-child{
+ color: #67d39f
+}
+
+
+
+.container {
+width: 100%;
+padding-top: 4%;
+margin-top: 5%; 
+margin-bottom: 2%;
+}
+.container .row { width: 90%;
+margin-left: 5.5rem;}
+
+.container .row .card {  
+  text-align: center; padding: 10px; border-width: 3px;
+
+}
+
+
+h6, h2 {text-align: center;}
+
+.form .container-form {
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
+.form .container-form .form-row { 
+  width: 100%;
+  display: flex ;
+  justify-content: space-between;
+  align-content: center;
+  }
+
+
+.form .container-form .form-row .col-sm-6 {
+  padding: 0.5rem;
+  width: 48%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  
+}
+
+
+  
+.form .container-form .form-row .col-sm-12 {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+ }
+ 
+ 
+ .form .container-form .form-row .form-group .col-sm-6  {
+ width: 100%;
+ padding:0.5rem;
+ margin-bottom: 0.5rem;
+ }
+
+.form .container-form .form-row .col-sm-6 .btn { 
+  width: 100% ;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem 
+  
+}
+
+
+.footer {
+  background-image: linear-gradient(to bottom, #004d7a, #02272a);
+  }
+
+
+.footer .container-footer {
+  width: 90vw;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .container-footer a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 3rem 0;
+  width: 100px;
+  text-align: center;
+}
+
+.footer .container-footer a:hover {
+  color: var(--gray-500);
+}
